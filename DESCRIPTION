@@ -1,13 +1,37 @@
 Package: heartPrediction
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Type: Package
+Title: Heart Disease Risk Prediction from Clinical Features
+Version: 1.0.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Haotian", "Guo",
+           email = "Haotian.Guo23@student.xjtlu.edu.cn",
+           role = c("aut", "cre"))
+Description: 
+    Companion R package for the BIO215 capstone project on heart disease
+    prediction. The package bundles the final top-10-feature Random Forest
+    model trained on the Kaggle 'Heart Disease Prediction' dataset and
+    provides a simple, high-level interface for making predictions from
+    routine clinical variables (age, blood pressure, cholesterol, chest
+    pain type, exercise test results, etc.). It exposes user-facing
+    functions such as 'predict_heart_bio215()', which takes a data.frame
+    of patient features and returns predicted heart disease status
+    (Absence/Presence) or probabilities, matching the model used in the
+    associated Shiny web application.
+Depends: 
+    R (>= 3.5.0)
+Imports:
+    stats,
+    ranger
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+License: MIT + file LICENSE
 Encoding: UTF-8
+LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
-Depends: 
-    R (>= 3.5)
+Config/testthat/edition: 3
+URL: https://github.com/tian233-bot/heartPrediction
+     https://905341291guo.shinyapps.io/heart3_shinny/
+BugReports: https://github.com/tian233-bot/heartPrediction/issues
