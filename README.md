@@ -215,7 +215,7 @@ These saved figures (fig_roc_top10_rf.png and fig_pr_top10_rf.png) can be
 included in reports or presentations to visually summarise model performance.
 
 ---
-##Summary metrics (Accuracy and F1 score)
+## Summary metrics (Accuracy and F1 score)
 To report simple summary metrics at a chosen threshold (for example, 0.5):
 ```r
 threshold <- 0.5
