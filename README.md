@@ -244,6 +244,7 @@ c(
 These values can be reported alongside the ROC and PR curves to provide a
 quantitative summary of the model’s performance.
 
+---
 ## Model Performance Visualization
 
 To showcase the model’s predictive power, I have included the ROC and PRC curve images.
