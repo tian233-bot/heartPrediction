@@ -248,5 +248,5 @@ quantitative summary of the model’s performance.
 
 To showcase the model’s predictive power, I have included the ROC and PRC curve images.
 
-![](Figures/ROC_curve.png)
-![](Figures/PRC_curve.png)
+![](Figure/ROC_curve.png)
+![](Figure/PRC_curve.png)
